@@ -12,6 +12,10 @@ const storage = new Storage({
     keyFilename: 'src/credentials.json',
 });
 
+export const tes: RequestHandler = async (req, res, next) => {
+    return res.status(200).send("hello world");
+};
+
 export const register: RequestHandler = async (req, res, next) => {
     var username = await User.create({ ...req.body});
     return res.status(200).json({ message: "data created", data: username });
@@ -21,13 +25,18 @@ export const login: RequestHandler = async (req, res, next) => {
     var uname = req.body.username;
     var pw = req.body.password;
 
-    if(await User.findAll({
+    if(!uname || ! pw){
+        return res.status(400).json({
+            "message" : "username or password cannot be empty",
+        })
+    }
+    const auth = await User.findAll({
         where: {
             username: uname,
             password: pw
         }
     })
-    ){
+    if(auth.length>0){
         return res.status(200).json({ message: "login success"});
     }
     return res.status(201).json({ message: "login fail"});
