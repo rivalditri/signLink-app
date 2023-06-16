@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "911942558859",
+    "project_id": "signmate-5c224",
+    "storage_bucket": "signmate-5c224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911942558859:android:b8a6bdf43e5139efc2e08e",
+        "android_client_info": {
+          "package_name": "com.example.google_ml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911942558859-c8q5p69964etb1r11p0uaadu3ua1r1vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.google_ml",
+            "certificate_hash": "b4cb8270cf06d6c8a0a911050cbc95026ace0832"
+          }
+        },
+        {
+          "client_id": "911942558859-j3s929q3le89bauqbc2bo6doaajilrmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbErVAAHobR6AaGddyzd_Q3HB-Mpy4lMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911942558859-h21oe38uv8vtdkh54kl8ceaumckg7put.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "911942558859-7bmqgl9q934hv4fsgni8lk7fu136c77m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reza.signlink"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911942558859:android:d13b296b57bfb25bc2e08e",
+        "android_client_info": {
+          "package_name": "com.reza.signlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911942558859-j39en8r9vaog1fnicl75vnbvlpls3di5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reza.signlink",
+            "certificate_hash": "b4cb8270cf06d6c8a0a911050cbc95026ace0832"
+          }
+        },
+        {
+          "client_id": "911942558859-j3s929q3le89bauqbc2bo6doaajilrmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbErVAAHobR6AaGddyzd_Q3HB-Mpy4lMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911942558859-h21oe38uv8vtdkh54kl8ceaumckg7put.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "911942558859-7bmqgl9q934hv4fsgni8lk7fu136c77m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reza.signlink"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
